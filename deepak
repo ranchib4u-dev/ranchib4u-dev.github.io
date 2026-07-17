@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deepak Mahatha | Official Website</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:#111827;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+z-index:999;
+box-shadow:0 0 20px rgba(0,0,0,.4);
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#38bdf8;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:30px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+background:linear-gradient(135deg,#0f172a,#1e293b);
+
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:60px;
+
+margin-bottom:20px;
+
+}
+
+.hero span{
+
+color:#38bdf8;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+margin-bottom:30px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+padding:15px 35px;
+
+background:#38bdf8;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:40px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:white;
+
+color:#111827;
+
+}
+
+section{
+
+padding:90px 10%;
+
+}
+
+.about{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:50px;
+
+align-items:center;
+
+}
+
+.about img{
+
+width:100%;
+
+border-radius:20px;
+
+}
+
+.about h2{
+
+font-size:40px;
+
+margin-bottom:20px;
+
+}
+
+.about p{
+
+line-height:1.8;
+
+color:#ddd;
+
+}
+
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+
+}
+
+nav{
+
+margin-top:15px;
+
+}
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+.about{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+Deepak Mahatha
+
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#">Services</a>
+
+<a href="#">Portfolio</a>
+
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Hello, I'm <span>Deepak Mahatha</span></h1>
+
+<p>
+
+Graphic Designer • Video Editor • Digital Marketing
+
+</p>
+
+<a href="#about" class="btn">
+
+Explore More
+
+</a>
+
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<div>
+
+<img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=700">
+
+</div>
+
+<div>
+
+<h2>About Me</h2>
+
+<p>
+
+Welcome to my official website.
+
+I create modern websites, social media designs, logos, banners and digital marketing solutions.
+
+My goal is to help businesses grow online with creative design and smart marketing.
+
+</p>
+
+</div>
+
+</section>
+
+</body>
+
+</html>
